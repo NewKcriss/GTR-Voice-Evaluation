@@ -1,0 +1,672 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  table audio {
+          width: 100%;
+          max-width: 300px; 
+  }
+  table {
+          width: 100%;
+          border-collapse: collapse;
+      }
+
+      table, th, td {
+          border: 1px solid black;
+      }
+
+      th, td {
+          padding: 10px;
+          text-align: left;
+      }
+</style>
+
+<body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<section>
+  <div>
+
+    
+    <div>
+      <div>
+        <h1>Subjective Evaluation (主观评估)</h1>
+        <p>Thank you for participating in the subjective evaluation. (感谢您参与本主观评估测试。)</p>
+          <p><strong>Instructions (测试说明)</strong>: </p>
+            <p>1. You will hear 18~19 groups of voices, each group contains a reference voice and three test voices. (你将听到18~19组语音，每组语音包含一个参考语音和三个测试语音。)</p>
+            <p>2. The text content of the reference voice is different from the text content of the test voice. (参考语音的文本内容与测试语音的文本内容不同。)</p>
+            <p>3. Click the triangle button on the left side of the audio block with the mouse to play the audio. (用鼠标点击音频块左侧的三角形按钮播放音频。)</p>
+            <p>4. You need to choose one of the three test voices that is most similar to the reference voice, and click the corresponding round single selection button with the mouse. (你需要在三个测试语音中选择一个与参考最相似的语音，并用鼠标点击相应的圆形单选按钮。)</p>
+          <p><strong>Most similar might mean (最相似可能意味着):</strong> </p>
+          <ul>
+            <li><strong>The pitch/timbre of the voice is similar (语音的音高/音色相似)</strong></li>
+            <li><strong>The style/speed/rhythm of the pronunciation of the voice is similar (语音的吐字或发声方式以及风格相似)</strong></li>
+          </ul>
+          <br>
+    <form id="evaluationForm"><input type="hidden" id="evaluationIdx" value="1">
+
+        <!-- Group 1 -->
+        <h3>Group 1</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="T/reference/351/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/correct_probe/351/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_1/321/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_2/311/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_1_choice_1" name="group_1" value="1" required><label for="group_1_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_1_choice_2" name="group_1" value="2" required><label for="group_1_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_1_choice_3" name="group_1" value="3" required><label for="group_1_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 1. -->
+        
+        
+
+
+
+        <!-- Group 2 -->
+        <h3>Group 2</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="T/reference/314/04.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/correct_probe/314/04.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_1/324/04.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_2/334/04.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_2_choice_1" name="group_2" value="1" required><label for="group_2_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_2_choice_2" name="group_2" value="2" required><label for="group_2_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_2_choice_3" name="group_2" value="3" required><label for="group_2_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 2. -->
+        
+        
+
+
+
+        <!-- Group 3 -->
+        <h3>Group 3</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/121/08.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/121/08.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/123/08.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/126/08.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_3_choice_1" name="group_3" value="1" required><label for="group_3_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_3_choice_2" name="group_3" value="2" required><label for="group_3_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_3_choice_3" name="group_3" value="3" required><label for="group_3_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 3. -->
+        
+        
+
+
+
+        <!-- Group 4 -->
+        <h3>Group 4</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/133/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/133/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/132/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/131/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_4_choice_1" name="group_4" value="1" required><label for="group_4_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_4_choice_2" name="group_4" value="2" required><label for="group_4_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_4_choice_3" name="group_4" value="3" required><label for="group_4_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 4. -->
+        
+        
+
+
+
+        <!-- Group 5 -->
+        <h3>Group 5</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/341/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/341/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/342/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/346/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_5_choice_1" name="group_5" value="1" required><label for="group_5_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_5_choice_2" name="group_5" value="2" required><label for="group_5_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_5_choice_3" name="group_5" value="3" required><label for="group_5_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 5. -->
+        
+        
+
+
+
+        <!-- Group 6 -->
+        <h3>Group 6</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="G/reference/421/12.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/correct_probe/421/12.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_1/121/12.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_2/321/12.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_6_choice_1" name="group_6" value="1" required><label for="group_6_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_6_choice_2" name="group_6" value="2" required><label for="group_6_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_6_choice_3" name="group_6" value="3" required><label for="group_6_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 6. -->
+        
+        
+
+
+
+        <!-- Group 7 -->
+        <h3>Group 7</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="T/reference/246/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/correct_probe/246/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_1/216/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_2/256/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_7_choice_1" name="group_7" value="1" required><label for="group_7_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_7_choice_2" name="group_7" value="2" required><label for="group_7_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_7_choice_3" name="group_7" value="3" required><label for="group_7_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 7. -->
+        
+        
+
+
+
+        <!-- Group 8 -->
+        <h3>Group 8</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/143/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/143/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/142/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/145/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_8_choice_1" name="group_8" value="1" required><label for="group_8_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_8_choice_2" name="group_8" value="2" required><label for="group_8_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_8_choice_3" name="group_8" value="3" required><label for="group_8_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 8. -->
+        
+        
+
+
+
+        <!-- Group 9 -->
+        <h3>Group 9</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/325/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/325/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/326/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/322/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_9_choice_1" name="group_9" value="1" required><label for="group_9_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_9_choice_2" name="group_9" value="2" required><label for="group_9_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_9_choice_3" name="group_9" value="3" required><label for="group_9_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 9. -->
+        
+        
+
+
+
+        <!-- Group 10 -->
+        <h3>Group 10</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/333/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/333/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/335/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/334/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_10_choice_1" name="group_10" value="1" required><label for="group_10_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_10_choice_2" name="group_10" value="2" required><label for="group_10_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_10_choice_3" name="group_10" value="3" required><label for="group_10_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 10. -->
+        
+        
+
+
+
+        <!-- Group 11 -->
+        <h3>Group 11</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="G/reference/213/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/correct_probe/213/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_1/413/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_2/113/13.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_11_choice_1" name="group_11" value="1" required><label for="group_11_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_11_choice_2" name="group_11" value="2" required><label for="group_11_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_11_choice_3" name="group_11" value="3" required><label for="group_11_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 11. -->
+        
+        
+
+
+
+        <!-- Group 12 -->
+        <h3>Group 12</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="T/reference/145/09.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/correct_probe/145/09.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_1/115/09.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_2/135/09.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_12_choice_1" name="group_12" value="1" required><label for="group_12_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_12_choice_2" name="group_12" value="2" required><label for="group_12_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_12_choice_3" name="group_12" value="3" required><label for="group_12_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 12. -->
+        
+        
+
+
+
+        <!-- Group 13 -->
+        <h3>Group 13</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="T/reference/346/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/correct_probe/346/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_1/336/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="T/variant_probe_2/316/01.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_13_choice_1" name="group_13" value="1" required><label for="group_13_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_13_choice_2" name="group_13" value="2" required><label for="group_13_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_13_choice_3" name="group_13" value="3" required><label for="group_13_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 13. -->
+        
+        
+
+
+
+        <!-- Group 14 -->
+        <h3>Group 14</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="G/reference/436/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/correct_probe/436/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_1/236/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_2/336/19.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_14_choice_1" name="group_14" value="1" required><label for="group_14_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_14_choice_2" name="group_14" value="2" required><label for="group_14_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_14_choice_3" name="group_14" value="3" required><label for="group_14_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 14. -->
+        
+        
+
+
+
+        <!-- Group 15 -->
+        <h3>Group 15</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/432/02.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/432/02.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/433/02.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/435/02.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_15_choice_1" name="group_15" value="1" required><label for="group_15_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_15_choice_2" name="group_15" value="2" required><label for="group_15_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_15_choice_3" name="group_15" value="3" required><label for="group_15_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 15. -->
+        
+        
+
+
+
+        <!-- Group 16 -->
+        <h3>Group 16</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="G/reference/321/20.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/correct_probe/321/20.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_1/221/20.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_2/121/20.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_16_choice_1" name="group_16" value="1" required><label for="group_16_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_16_choice_2" name="group_16" value="2" required><label for="group_16_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_16_choice_3" name="group_16" value="3" required><label for="group_16_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 16. -->
+        
+        
+
+
+
+        <!-- Group 17 -->
+        <h3>Group 17</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="G/reference/234/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/correct_probe/234/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_1/134/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="G/variant_probe_2/334/16.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_17_choice_1" name="group_17" value="1" required><label for="group_17_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_17_choice_2" name="group_17" value="2" required><label for="group_17_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_17_choice_3" name="group_17" value="3" required><label for="group_17_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 17. -->
+        
+        
+
+
+
+        <!-- Group 18 -->
+        <h3>Group 18</h3>
+        <div>
+        </div>
+        <div><table style="table-layout:fixed;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 25%;">
+            <thead>
+                <tr>
+                    <th style="text-align: center">Reference</th>
+                    <th style="text-align: center">Test Sample 1</th>
+                    <th style="text-align: center">Test Sample 2</th>
+                    <th style="text-align: center">Test Sample 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="text-align: center"><audio src="R/reference/423/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/correct_probe/423/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_1/421/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td><td style="text-align: center"><audio src="R/variant_probe_2/424/10.wav" style="max-width: 300px;" type="audio/wav" controls controlsList="nodownload noplaybackrate"></audio></td></tr>
+                <tr>
+                <td>&#128204; Which speech sample(Sample 1, Sample 2, Sample 3) sounds most similar to the reference?</td>
+                <td style="text-align: center;"><input type="radio" id="group_18_choice_1" name="group_18" value="1" required><label for="group_18_choice_1">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_18_choice_2" name="group_18" value="2" required><label for="group_18_choice_2">This one is most similar to reference</label></td><td style="text-align: center;"><input type="radio" id="group_18_choice_3" name="group_18" value="3" required><label for="group_18_choice_3">This one is most similar to reference</label></td>
+                </tr>
+            </tbody>
+        </table></div>
+        <!-- End of Group 18. -->
+        
+        
+
+
+
+
+    <br><br>
+
+        <!-- Submit button -->
+            <div style="text-align: center;">
+                <input type="submit" value="Complete" style="width: 150px; height: 50px;">
+            </div>
+            </form>
+
+            <div id="resultText" style="text-align: center; display: none;">
+                <p>Please copy the following text and paste it into Google Forms(请复制以下文本并粘贴到Google Forms中):</p>
+                <textarea id="resultOutput"></textarea>
+            </div>
+            <div style="display: flex; justify-content: center; margin-top: 20px;"> <!-- 开始一个新的 div 用于 iframe -->
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdJdZbJIQPeFQHEHIbMKYjmjL0gGPGhx08AY8G-hoFcD3QeSA/viewform?embedded=true" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+            </section>
+        </div>
+  <script>
+  document.getElementById('evaluationForm').onsubmit = function(event) {
+      event.preventDefault(); // 阻止表单默认提交行为
+
+      var resultArray = [];
+      var currentTime = new Date().toISOString();
+      var evaluationIdx = document.getElementById('evaluationIdx').value; // 从隐藏的输入获取evaluation_idx
+      var evaluationNumber = "evaluation_" + evaluationIdx; // 使用evaluation_idx构建评估编号
+
+      resultArray.push(evaluationNumber);
+
+      // 获取每个group的用户选择
+      var choices = [];
+      for (var i = 1; i <= 18; i++) {
+          var groupName = "group_" + i;
+          var selectedValue = document.querySelector('input[name="' + groupName + '"]:checked')?.value;
+          choices.push(selectedValue || "N/A");
+      }
+
+      resultArray.push(choices.join(","));
+
+      // 显示结果文本并填充到textarea中
+      var resultText = resultArray.join(",");
+      document.getElementById('resultOutput').textContent = resultText;
+      document.getElementById('resultText').style.display = 'block';
+  };
+  </script>
+          var resultText = resultArray.join(",");
+          var resultOutput = document.getElementById('resultOutput');
+          resultOutput.textContent = resultText;
+          resultOutput.style.height = 'auto';
+          resultOutput.style.height = (resultOutput.scrollHeight) + 'px';
+          document.getElementById('resultText').style.display = 'block';
+</body>
+</html>
